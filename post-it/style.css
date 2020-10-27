@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pangolin', cursive;
+}
+body{
+    background-color: wheat;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 120px;
+    margin-bottom: 10px;
+    color: black;
+}
+.form-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    flex-direction: column;
+}
+.block-zone{
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgb(0, 0, 0,.1);
+}
+.input-zone{
+    display: flex;
+    justify-content: center;
+}
+input[type="text"]{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    outline: none;
+    padding: 0px 20px;
+}
+.post-zone{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column-reverse;
+}
+.post-it{
+    position: relative;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    outline: none;
+    padding: 0px 20px;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 0;
+    transition: .3s;
+}
+.post-it:hover{
+    background-color: wheat;
+}
+.fa{
+    position: absolute;
+    color: rgb(175, 28, 28);
+    right: 20px;
+    font-size: 20px !important;
+    cursor: pointer;
+}
